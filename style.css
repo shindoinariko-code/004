@@ -1,58 +1,4 @@
-慶太郎、いいね。
-**「仮想アクセサリー紹介のホームページ」**を、
-HTML と CSS を分けて作る形で、すぐ使えるテンプレートを作ってみたよ。
-シンプルで見やすく、あとから画像や文章を差し替えやすい構成にしてある。
 
-🌐 HTML（index.html）
-以下をそのまま index.html として保存して使えるよ。
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>仮想アクセサリー紹介</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>仮想アクセサリーコレクション</h1>
-        <p>あなたのアバターを彩るデジタルアクセサリー</p>
-    </header>
-
-    <section class="items">
-
-        <div class="item">
-            <img src="item1.png" alt="アクセサリー1">
-            <h2>クリスタルイヤリング</h2>
-            <p>透明感のある輝きが特徴のデジタルイヤリング。</p>
-        </div>
-
-        <div class="item">
-            <img src="item2.png" alt="アクセサリー2">
-            <h2>ホログラムネックレス</h2>
-            <p>角度によって色が変わる幻想的なネックレス。</p>
-        </div>
-
-        <div class="item">
-            <img src="item3.png" alt="アクセサリー3">
-            <h2>サイバーリング</h2>
-            <p>未来的な光を放つデジタルリング。</p>
-        </div>
-
-    </section>
-
-    <footer>
-        <p>© 2026 Virtual Accessories</p>
-    </footer>
-
-</body>
-</html>
-
-
-
-🎨 CSS（style.css）
-同じフォルダに style.css を作って、以下を貼り付けてね。
 body {
     font-family: "Yu Gothic", sans-serif;
     margin: 0;
@@ -97,21 +43,6 @@ footer {
 }
 
 
-
-📁 フォルダ構成はこうなる
-my-website/
- ├── index.html
- ├── style.css
- ├── item1.png
- ├── item2.png
- └── item3.png
-
-
-画像ファイル（item1.png など）は index.html と同じフォルダに入れてね。
-
-🔧 あとは GitHub にアップすれば公開できる
-このフォルダを VS Code で開いて GitHub に公開すれば、
-そのまま GitHub Pages で表示されるよ。
 
 慶太郎、もしデザインをもっと派手にしたいとか、
 アクセサリーの数を増やしたいとかあれば、いくらでもカスタムできるよ。
